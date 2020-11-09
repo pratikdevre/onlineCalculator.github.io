@@ -18,10 +18,22 @@ body {
     padding: 40px;
     background: url('bg.jpg') no-repeat center center/cover;
 }
+
+/* .btn{
+
+}
+.delBtn {
+    padding: 12px;
+}
 #inputText {
-    width: 23rem;
-    height: 60px;
-    margin-bottom: 15px;
+    width: 17rem;
+    height: 40px;
+    font-size: 22px;
+} */
+#inputText {
+    width: 18rem;
+    height: 50px;
+    margin-bottom: 18px;
     outline: none;
     color: yellow;
     font-size: 30px;
@@ -30,8 +42,8 @@ body {
     padding: 5px;
 }
 .btn{
-    padding: 25px 40px 25px 25px;
-    margin: 5px;
+    padding: 15px 30px 15px 15px;
+    margin: 4px;
     border-radius: 10px;
     outline: none;
     color: green;
@@ -45,7 +57,7 @@ body {
 }
 .delBtn {
     width: 50%;
-    padding: 22px;
+    padding: 12px;
     border-radius: 10px;
     outline: none;
     color: red;
@@ -73,72 +85,12 @@ input{
 /* Media Query for responsiveness */
 
 @media screen and (max-width: 730px) {
-    .btn{
-        padding: 20px 35px 20px 20px;
-        margin: 3px;
-    }
-    .delBtn {
-        width: 46%;
-        padding: 15px;
-    }
-    #inputText {
-        width: 20rem;
-        height: 50px;
-    }
     input{
         width: 35px;
     }
-   .inlook{
-       width: 300px;
-   }
-}
-@media screen and (max-width: 570px) {
-    .btn{
-        padding: 20px 35px 20px 20px;
-    }
-    
-    #inputText {
-        width: 20rem;
-        height: 50px;
-    }
+  
     .inlook {
         width: 300px;
-    }
-    
-}
-@media screen and (max-width: 520px) {
-    .inlook {
-        width: 300px;
-    }
-    .delBtn {
-        width: 40%;
-        padding: 15px;
-        font-size: 17px;
-    }
-    #inputText {
-        width: 20rem;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-    .inlook {
-        width: 250px;
-    }
-    .btn{
-        padding: 17px 33px 17px 17px;
-    }
-    .delBtn {
-        padding: 13px;
-    }
-    #inputText {
-        width: 18rem;
-        height: 45px;
-    }
-}
-@media screen and (max-width: 360px) {
-    .inlook {
-        width: 230px;
     }
     .btn{
         padding: 15px 30px 15px 15px;
@@ -152,31 +104,70 @@ input{
         font-size: 22px;
     }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 570px) {
+  
     .inlook {
-        width: 233px;
-        padding: 17px;
+        width: 250px;
     }
-    .btn{
-        padding: 13px 28px 13px 13px;
-    }
-    #inputText {
-        width: 14rem;
-    }
+    
 }
-@media screen and (max-width: 290px) {
+
+@media screen and (max-width: 360px) {
     .inlook {
         width: 200px;
-        /* padding: 15px; */
     }
     .btn{
-        padding: 10px 26px 10px 10px;
+        padding: 10px 25px 10px 10px;
     }
     #inputText {
         width: 14rem;
-        height: 35px;
+        height: 30px;
+        font-size: 18px;
     }
     .delBtn {
         padding: 10px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 300px) {
+    .inlook {
+        width: 160px;
+    }
+    .btn{
+        padding: 8px 23px 8px 8px;
+        font-weight: 900px;
+        margin: 1px;
+    }
+    #inputText {
+        width: 12rem;
+        height: 30px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 260px) {
+    .inlook {
+        width: 160px;
+    }
+    .btn{
+        padding: 6px 21px 6px 6px;
+        font-weight: 700px;
+    }
+    #inputText {
+        width: 10rem;
+    }
+}
+@media screen and (max-width: 250px) {
+    .inlook {
+        width: 140px;
+    }
+    .btn{
+        padding: 3px 19px 3px 3px;
+        font-weight: 300px;
+    }
+    #inputText {
+        width: 9rem;
     }
 }
